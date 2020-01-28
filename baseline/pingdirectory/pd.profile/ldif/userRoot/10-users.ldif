@@ -32,8 +32,8 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-sn: Tancordo
-cn: Sidonia Tancordo
+sn: Smith
+cn: Morgan Smith
 givenName: Morgan
 uid: user.2
 mail: user.2@example.com
