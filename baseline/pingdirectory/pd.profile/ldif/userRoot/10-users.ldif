@@ -32,9 +32,9 @@ objectClass: person
 objectClass: organizationalPerson
 objectClass: inetOrgPerson
 objectClass: pf-connected-identities
-sn: Tancordo
-cn: Sidonia Tancordo
-givenName: Sidonia
+sn: Smith
+cn: Morgan Smith
+givenName: Morgan
 uid: user.2
 mail: user.2@example.com
 userPassword: 2FederateM0re
@@ -107,5 +107,3 @@ givenName: PingFederate
 uid: auditor
 userPassword: 2FederateM0re
 pf-connected-identity: auth-source=pf-local-identity:user-id=auditor
-
-
