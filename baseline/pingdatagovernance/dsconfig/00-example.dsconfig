@@ -1,0 +1,12 @@
+# This file is an example batch file containing dsconfig commands to
+# run on the server.
+# A dsconfig batch file reproducing the current server's configuration
+# can be generated from a running server using 'bin/config-diff'.
+# This file includes some examples of commands that could be included in a
+# dsconfig batch file.
+
+# Enable the audit logger
+dsconfig set-log-publisher-prop --publisher-name "File-Based LDAP Audit Logger" --set enabled:true
+
+# Reduce the maximum time for searches.
+dsconfig set-global-configuration-prop --set "time-limit:10 s"
